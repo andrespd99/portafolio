@@ -13,7 +13,18 @@
     font-family: moon;
     src: url(Moon2.0-Regular.otf);
     font-weight: regular;
-}  
+}
+
+h2{
+    margin: 0px 15px 15px 15px;
+    font-size: 50px;
+    color:white;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background: #9fffef;
@@ -58,15 +69,19 @@ a:link, a:visited {
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5), 0px -2px 11px rgba(135,140,255,0.64);
 }
 
-
+.welcome-title {
+    margin:20px 0 200px 0;
+    text-align: center;
+}
 
 h1 {
     font-family: moon;
     font-weight: 10;
 }
 
+
 #navbar  {
-    margin: 0 0 750px 0;
+    margin: 0 0 300px 0;
     padding: 0px;
     display: flex;
     justify-content: space-around;
@@ -79,19 +94,61 @@ h1 {
 .info-container {
     display: flex;
     flex-direction: row;
-    height: 550px;
+    height: 630px;
     
 }
-
-.info-1 h2{
-    margin: 15px;
-    font-size: 50px;
-    color:white;
-}
-
 
 .info-1 {
     background: #ff9083;
     flex: 1;
     order: 1;
+    margin: 0;
+}
+
+.info-1-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-1-content-img-1 {
+    padding: 0 0 0 75px;
+    margin: 20px;
+    order: 1;
+    flex-grow: 1;
+}
+
+.info-1-content-list {
+    margin: 20px;
+    order: 2;
+    flex-grow: 2;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.info-1-content-img-2 {
+    padding: 0;
+    margin: 20px;
+    order: 3;
+    flex-grow: 1;
+}
+
+.info-2 {
+    background: #fffe8b;
+    height: 400px;
+}
+
+.info-3 {
+    background: #878cff;
+    height: 400px;
+}
+
+ul {
+    list-style-type: none;
+   
+}
+
+li {
+    height: 50px;
 }
