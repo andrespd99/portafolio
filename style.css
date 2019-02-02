@@ -20,18 +20,46 @@ body {
 }
 
 #main-title {
+    
     margin: 10px 0px;
     padding:32px 0 10px 30px;
     font-size: 97px;
-    letter-spacing: 25px;
+    letter-spacing: 20px;
     text-align: center;
     color: white;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5), 1px 1px 9px rgba(68,104,108,0.44);
+    transition: all 0.4s ease-out;
+}
+
+#nav-item-1:hover {
+    transition-duration: 0.5s;
+    color: #ff9083;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5), 0px -2px 11px rgba(164,0,0,0.64);
+}
+
+
+#nav-item-2:hover {
+    transition-duration: 0.4s;
+    color: #fffe8b;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5), 0px -2px 11px #B6AF3B;
+}
+
+#nav-item-3:hover {
+    transition: 0.5s;
+    color: #878cff;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5), 0px -2px 11px rgba(135,140,255,0.64);
+}
+
+
 
 h1 {
     font-family: moon;
-    font-weight: light;
+    font-weight: 10;
 }
 
 #navbar  {
@@ -40,7 +68,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    font-size: 24px;
+    font-size: 30px;
     font-family: moon;
     font-weight: light;
 }
